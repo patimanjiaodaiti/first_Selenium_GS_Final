@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa50191-e97a-407b-99c2-d56dae7297b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TestingOne.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/info2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FileHandling/ExcelFileHandling_DDT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FileHandling/PropertiesFile_Handling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Practices/PopUpWindow_Handiling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileHandling/ExcelPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileHandling/ExcelPractice.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/TestNG_Annotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/recap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/simpleReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utilities/Mylibrary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Practices/BooyStrap_Handiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practices/BootStrap_Handiling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FileHandling/ExcelFileHandling_DDT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FileHandling/ExcelFileHandling_DDT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Practices/BooyStrap_Handiling.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FileHandling/PropertiesFile_Handling.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/recap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state relative-caret-position="544">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,22 +37,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FileHandling/ExcelFileHandling_DDT.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="14" column="59" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            <state relative-caret-position="204">
+              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -94,6 +84,11 @@
         <option value="$PROJECT_DIR$/src/test/java/FileHandling/PropertiesFile_Handling.java" />
         <option value="$PROJECT_DIR$/src/test/java/FileHandling/XcelFileHandlingDDT.java" />
         <option value="$PROJECT_DIR$/src/test/java/FileHandling/ExcelFileHandling_DDT.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FileHandling/ExcelPractice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HTML_Report/simpleReport.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HTML_Report/recap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HTML_Report/TestNG_Annotation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java" />
       </list>
     </option>
   </component>
@@ -134,6 +129,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,18 +162,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="FileHandling" type="462c0819:PsiDirectoryNode" />
+              <item name="HTML_Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="first_Selenium_GS_Final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="first_Selenium_GS_Final" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551296530856" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551820753336" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -187,6 +190,7 @@
       <recent name="Utilities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fjiaodaiiti\Documents\GitHub\first_Selenium_GS_Final\src\test\java\FileHandling" />
       <recent name="C:\Users\fjiaodaiiti\Documents\GitHub\first_Selenium_GS_Final" />
     </key>
   </component>
@@ -202,79 +206,94 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelFileHandling_DDT">
-    <configuration name="BooyStrap_Handiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.BooyStrap_Handiling" />
+  <component name="RunManager" selected="TestNG.TestNg_Reports (5)">
+    <configuration name="TestNg_Reports (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_Selenium_GS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practices.*" />
+          <option name="PATTERN" value="HTML_Report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HTML_Report" />
+      <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelFileHandling_DDT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileHandling.ExcelFileHandling_DDT" />
+    <configuration name="TestNg_Reports (3)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_Selenium_GS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileHandling.*" />
+          <option name="PATTERN" value="HTML_Report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HTML_Report" />
+      <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiWindow_Handling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.MultiWindow_Handling" />
+    <configuration name="TestNg_Reports (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_Selenium_GS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practices.*" />
+          <option name="PATTERN" value="HTML_Report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HTML_Report" />
+      <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesFile_Handling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FileHandling.PropertiesFile_Handling" />
+    <configuration name="TestNg_Reports (5)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_Selenium_GS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FileHandling.*" />
+          <option name="PATTERN" value="HTML_Report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HTML_Report" />
+      <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioButton_CheckBox_Handiling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practices.RadioButton_CheckBox_Handiling" />
+    <configuration name="TestNg_Reports" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="first_Selenium_GS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Practices.*" />
+          <option name="PATTERN" value="HTML_Report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="HTML_Report" />
+      <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExcelFileHandling_DDT" />
-        <item itemvalue="Application.PropertiesFile_Handling" />
-        <item itemvalue="Application.MultiWindow_Handling" />
-        <item itemvalue="Application.RadioButton_CheckBox_Handiling" />
-        <item itemvalue="Application.BooyStrap_Handiling" />
+        <item itemvalue="TestNG.TestNg_Reports (5)" />
+        <item itemvalue="TestNG.TestNg_Reports (4)" />
+        <item itemvalue="TestNG.TestNg_Reports (3)" />
+        <item itemvalue="TestNG.TestNg_Reports (2)" />
+        <item itemvalue="TestNG.TestNg_Reports" />
       </list>
     </recent_temporary>
   </component>
@@ -320,11 +339,43 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestNg_Reports_Test2 - 2019.03.05 at 14h 58m 03s.xml">
+      <configuration name="TestNg_Reports.Test2" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports - 2019.03.05 at 14h 58m 44s.xml">
+      <configuration name="TestNg_Reports" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports - 2019.03.05 at 15h 04m 45s.xml">
+      <configuration name="TestNg_Reports" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports - 2019.03.05 at 15h 10m 10s.xml">
+      <configuration name="TestNg_Reports" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports - 2019.03.05 at 15h 17m 27s.xml">
+      <configuration name="TestNg_Reports" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports_(1) - 2019.03.05 at 15h 23m 56s.xml">
+      <configuration name="TestNg_Reports (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports - 2019.03.05 at 15h 24m 50s.xml">
+      <configuration name="TestNg_Reports" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports_(2) - 2019.03.05 at 15h 51m 51s.xml">
+      <configuration name="TestNg_Reports (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports_(3) - 2019.03.05 at 15h 54m 29s.xml">
+      <configuration name="TestNg_Reports (3)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestNg_Reports_(4) - 2019.03.05 at 16h 01m 52s.xml">
+      <configuration name="TestNg_Reports (4)" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32550606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -333,7 +384,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20781527" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25754884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -346,13 +397,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32955465" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven" order="7" weight="0.32955465" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.32550606" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32550606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -361,7 +412,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3179396" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20781527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,31 +441,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Dpendency_Import/TestingUpdates.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Dpendency_Import/Mylibrary.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Dpendency_Import/Dependencies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Patima/patima.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Practices/BootStraps_handling.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/Elements/elemnts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/captures/patima.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Practices/RadioButton_CheckBox_Handiling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -429,26 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Practices/BooyStrap_Handiling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="48" column="68" selection-start-line="48" selection-start-column="68" selection-end-line="48" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -512,6 +520,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileHandling/ExcelFileHandling_DDT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FileHandling/PropertiesFile_Handling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -522,13 +540,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FileHandling/ExcelFileHandling_DDT.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/FileHandling/ExcelPractice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="14" column="59" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="59" />
+        <state relative-caret-position="527">
+          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Practices/BootStrap_Handiling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/report1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Elements/elemnts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Dpendency_Import/Dependencies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/TestNG_Annotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/simpleReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/captures/Test2.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/test/captures/patima.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/captures/varifyFaceBook.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Utilities/Mylibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/recap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
