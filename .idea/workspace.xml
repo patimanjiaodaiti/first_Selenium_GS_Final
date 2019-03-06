@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aa50191-e97a-407b-99c2-d56dae7297b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FileHandling/ExcelPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FileHandling/ExcelPractice.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/TestNG_Annotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/recap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HTML_Report/simpleReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Practices/BooyStrap_Handiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Practices/BootStrap_Handiling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/FileHandling/ExcelFileHandling_DDT.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FileHandling/ExcelFileHandling_DDT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Practices/BooyStrap_Handiling.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,29 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/recap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,61 +97,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="first_Selenium_GS_Final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_Selenium_GS_Final" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_Selenium_GS_Final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_Selenium_GS_Final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_Selenium_GS_Final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_Selenium_GS_Final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_Selenium_GS_Final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_Selenium_GS_Final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_Selenium_GS_Final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_Selenium_GS_Final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="HTML_Report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="first_Selenium_GS_Final" type="b2602c69:ProjectViewProjectNode" />
-              <item name="first_Selenium_GS_Final" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551820757914" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551821975336" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -217,6 +142,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="HTML_Report" />
       <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -233,6 +159,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="HTML_Report" />
       <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -249,6 +176,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="HTML_Report" />
       <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -265,6 +193,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="HTML_Report" />
       <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -281,6 +210,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="HTML_Report" />
       <option name="MAIN_CLASS_NAME" value="HTML_Report.TestNg_Reports" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -336,13 +266,17 @@
       <option name="project" value="LOCAL" />
       <updated>1550680660594</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated with screenshot and report">
+      <created>1551820795187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551820795187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNg_Reports_Test2 - 2019.03.05 at 14h 58m 03s.xml">
-      <configuration name="TestNg_Reports.Test2" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestNg_Reports - 2019.03.05 at 14h 58m 44s.xml">
       <configuration name="TestNg_Reports" configurationId="TestNG" />
     </history-entry>
@@ -370,12 +304,14 @@
     <history-entry file="TestNg_Reports_(4) - 2019.03.05 at 16h 01m 52s.xml">
       <configuration name="TestNg_Reports (4)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestNg_Reports_(5) - 2019.03.05 at 16h 18m 53s.xml">
+      <configuration name="TestNg_Reports (5)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28178138" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29149798" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +320,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25754884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25754884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -436,7 +372,8 @@
     <MESSAGE value="Updated again" />
     <MESSAGE value="Updated again second time" />
     <MESSAGE value="Updated again thirdtime" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated again thirdtime" />
+    <MESSAGE value="Updated with screenshot and report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated with screenshot and report" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Dpendency_Import/TestingUpdates.java" />
@@ -621,20 +558,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/recap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
+        <state relative-caret-position="476">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/HTML_Report/TestNg_Reports.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
         </state>
       </provider>
     </entry>
